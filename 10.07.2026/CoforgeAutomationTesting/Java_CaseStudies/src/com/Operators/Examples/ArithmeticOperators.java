@@ -1,7 +1,6 @@
 package com.Operators.Examples;
 
 public class ArithmeticOperators {
-
 	public static void main(String[] args) {
         int a = 20;
         int b = 5;
@@ -12,5 +11,4 @@ public class ArithmeticOperators {
         System.out.println("Division = " + (a / b));
         System.out.println("Remainder = " + (a % b));
 	}
-
 }

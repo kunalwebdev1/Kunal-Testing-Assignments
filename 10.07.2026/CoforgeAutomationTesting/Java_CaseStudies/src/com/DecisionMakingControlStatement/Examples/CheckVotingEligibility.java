@@ -1,7 +1,6 @@
 package com.DecisionMakingControlStatement.Examples;
 
 public class CheckVotingEligibility {
-
 	public static void main(String[] args) {
 		int age = 6;
 		if(age > 18) {
@@ -9,7 +8,5 @@ public class CheckVotingEligibility {
 		} else {
 			System.out.println("Not Eligible");
 		}
-
 	}
-
 }

@@ -1,7 +1,6 @@
 package com.DecisionMakingControlStatement.Examples;
 
 public class ECommerceDiscount {
-
 	public static void main(String[] args) {
 		double amount = 650;
 		System.out.println("Amount without discount: " + amount);
@@ -14,7 +13,5 @@ public class ECommerceDiscount {
 		else {
 			System.out.println("Amount not eligible for discount");
 		}
-
 	}
-
 }

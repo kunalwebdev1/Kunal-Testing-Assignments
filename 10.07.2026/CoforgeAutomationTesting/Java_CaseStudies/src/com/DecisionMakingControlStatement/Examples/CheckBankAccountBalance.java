@@ -1,9 +1,7 @@
 package com.DecisionMakingControlStatement.Examples;
 
 public class CheckBankAccountBalance {
-
 	public static void main(String[] args) {
-		
 		double balance = 10000;
 		int num = 1;
 		switch(num) {
@@ -18,9 +16,5 @@ public class CheckBankAccountBalance {
 		default:
 			System.out.println("Bye Bye");	
 		}
-		
-		
-
 	}
-
 }

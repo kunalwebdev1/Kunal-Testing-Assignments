@@ -1,7 +1,6 @@
 package com.DecisionMakingControlStatement.Examples;
 
 public class MarksValidation {
-
 	public static void main(String[] args) {
 		int marks = 75;
 		if(marks > 40) {
@@ -9,7 +8,5 @@ public class MarksValidation {
 		} else {
 			System.out.println("Student has failed the examination with " + marks + "marks");
 		}
-
 	}
-
 }

@@ -1,7 +1,6 @@
 package com.Operators.Examples;
 
 public class AssignmentOperators {
-
 	public static void main(String[] args) {
 		int balance = 1000;
 
@@ -9,5 +8,4 @@ public class AssignmentOperators {
 
         System.out.println(balance);
 	}
-
 }

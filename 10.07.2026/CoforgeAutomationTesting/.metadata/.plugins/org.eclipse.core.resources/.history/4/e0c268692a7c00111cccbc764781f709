@@ -1,0 +1,11 @@
+Feature: Checking login test for practice test automation
+
+Scenario: 
+Given User should open Chrome Browser
+When Enter url in browser
+Then Type username student into Username field
+Then Type password Password123 into Password field
+Then User should click on Push Submit button
+Then User should Verify new page URL contains https://practicetestautomation.com/logged-in-successfully/
+Then User should Verify new page contains expected text ('Logged In Successfully' or 'Congratulations student. You successfully logged in!')
+Then User should Verify button Log out is displayed on the new page

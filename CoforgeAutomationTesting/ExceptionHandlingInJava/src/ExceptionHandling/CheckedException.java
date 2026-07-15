@@ -1,0 +1,25 @@
+package ExceptionHandling;
+import java.io.IOException;
+import java.util.Scanner;
+public class CheckedException {
+	int x,y;
+	public void accept() throws IOException {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter two values");
+		x = sc.nextInt();
+		y = sc.nextInt();
+	}
+	public void display() {
+		int result = x + y;
+		System.out.println("Addition =" + result);
+	}
+	public static void main(String[] args) {
+		CheckedException ce = new CheckedException();
+		try {
+			ce.accept();
+		} catch (IOException ie) {
+			System.out.println(ie);
+		}
+		ce.display();
+	}
+}

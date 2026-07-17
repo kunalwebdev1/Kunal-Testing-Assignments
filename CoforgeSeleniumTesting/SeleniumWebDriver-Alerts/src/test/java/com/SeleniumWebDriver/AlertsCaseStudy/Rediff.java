@@ -27,9 +27,5 @@ public class Rediff {
         
         driver.findElement(By.xpath("//input[@id='password']")).sendKeys("xyzkdoanca");
         driver.findElement(By.xpath("//button[@name='proceed']")).click();
-//      Alert alert2 = driver.switchTo().alert();
-//		String alertmsg2 = alert2.getText();
-//		System.out.println(alertmsg2);
-//      alert2.accept();
 	}
 }

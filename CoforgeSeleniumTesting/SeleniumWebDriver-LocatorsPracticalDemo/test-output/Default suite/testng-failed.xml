@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.SeleniumWebDriver.LocatorsDemo.ClassNameTestDemo">
+      <class name="com.SeleniumWebDriver.LocatorsDemo.FindElementByLinks">
         <methods>
-          <include name="ClassNameTest"/>
+          <include name="findElementById"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.SeleniumWebDriver.LocatorsDemo.ClassNameTestDemo -->
+      </class> <!-- com.SeleniumWebDriver.LocatorsDemo.FindElementByLinks -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

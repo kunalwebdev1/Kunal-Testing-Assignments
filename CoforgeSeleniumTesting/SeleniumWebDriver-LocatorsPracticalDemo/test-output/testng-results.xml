@@ -2,16 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-15T16:27:49 IST" name="Default suite" finished-at="2026-07-15T16:29:15 IST" duration-ms="86700">
+  <suite started-at="2026-07-16T22:19:06 IST" name="Default suite" finished-at="2026-07-16T22:20:32 IST" duration-ms="86057">
     <groups>
     </groups>
-    <test started-at="2026-07-15T16:27:49 IST" name="Default test" finished-at="2026-07-15T16:29:15 IST" duration-ms="86700">
-      <class name="com.SeleniumWebDriver.LocatorsDemo.ClassNameTestDemo">
-        <test-method signature="ClassNameTest()[pri:0, instance:com.SeleniumWebDriver.LocatorsDemo.ClassNameTestDemo@43195e57]" started-at="2026-07-15T16:27:49 IST" name="ClassNameTest" finished-at="2026-07-15T16:29:15 IST" duration-ms="86544" status="PASS">
+    <test started-at="2026-07-16T22:19:06 IST" name="Default test" finished-at="2026-07-16T22:20:32 IST" duration-ms="86057">
+      <class name="com.SeleniumWebDriver.LocatorsDemo.FindElementByLinks">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SeleniumWebDriver.LocatorsDemo.FindElementByLinks@5b239d7d]" started-at="2026-07-16T22:19:06 IST" name="setUp" finished-at="2026-07-16T22:19:25 IST" duration-ms="19645" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ClassNameTest -->
-      </class> <!-- com.SeleniumWebDriver.LocatorsDemo.ClassNameTestDemo -->
+        </test-method> <!-- setUp -->
+        <test-method signature="findElementById()[pri:0, instance:com.SeleniumWebDriver.LocatorsDemo.FindElementByLinks@5b239d7d]" started-at="2026-07-16T22:19:25 IST" name="findElementById" finished-at="2026-07-16T22:20:32 IST" duration-ms="66364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findElementById -->
+      </class> <!-- com.SeleniumWebDriver.LocatorsDemo.FindElementByLinks -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

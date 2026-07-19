@@ -8,7 +8,6 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
 public class Reusability {
-
 	public static void capturedScreenShot(WebDriver driver, String screenShotName) {
 		try {
 			TakesScreenshot ts = (TakesScreenshot) driver;

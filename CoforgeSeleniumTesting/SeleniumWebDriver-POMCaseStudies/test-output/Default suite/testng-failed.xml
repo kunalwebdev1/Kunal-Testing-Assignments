@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.SauceLabs.TestCases.ExecuteLoginPage">
+      <class name="com.NPC.TestCases.ExecuteLoginNPC">
         <methods>
           <include name="CheckValidUser"/>
         </methods>
-      </class> <!-- com.SauceLabs.TestCases.ExecuteLoginPage -->
+      </class> <!-- com.NPC.TestCases.ExecuteLoginNPC -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,25 +1,25 @@
-package com.SauceLabs.Pages;
+package com.AltoroMutual.Pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class LoginSauceLabs {
+public class LoginAM {
 WebDriver driver;
 	
-	public LoginSauceLabs(WebDriver driver) {
+	public LoginAM(WebDriver driver) {
 		this.driver = driver;
 	}
-	@FindBy (xpath = "//input[id='idToken1']")
+	@FindBy (xpath = "//input[@id='uid']")
 	WebElement email;
 	
-	@FindBy (xpath = "//input[id='idToken2']")
+	@FindBy (xpath = "//input[@id='passw']")
 	WebElement password;
 	
-	@FindBy (xpath = "//input[id='loginButton_0']")
+	@FindBy (xpath = "//input[@name='btnSubmit']")
 	WebElement loginbtn;
 	
-	public void login_Sauce(String uname, String pass) {
+	public void login_AM(String uname, String pass) {
 		email.sendKeys(uname);
 		password.sendKeys(pass);
 		loginbtn.click();

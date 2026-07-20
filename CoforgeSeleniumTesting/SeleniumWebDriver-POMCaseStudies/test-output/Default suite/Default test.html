@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Jul 20 00:08:07 IST 2026</td>
+<td>Started on:</td><td>Mon Jul 20 10:44:06 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>12 seconds (12001 ms)</td>
+<tr><td>Total time:</td><td>38 seconds (38876 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,15 +76,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.SauceLabs.TestCases.ExecuteLoginPage.CheckValidUser()'><b>CheckValidUser</b><br>Test class: com.SauceLabs.TestCases.ExecuteLoginPage</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[id=&apos;idToken1&apos;]
+<td title='com.NPC.TestCases.ExecuteLoginNPC.CheckValidUser()'><b>CheckValidUser</b><br>Test class: com.NPC.TestCases.ExecuteLoginNPC</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&quot;KSUV2&quot;]/div/label/span[2]
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: &apos;4.45.0&apos;, revision: &apos;cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.2&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [b319fbae-59dd-4e30-a082-0b30acedf74c, findElement {using=xpath, value=//input[id=&apos;idToken1&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 152.0.6, moz:accessibilityChecks: false, moz:buildID: 20260713164047, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9036, moz:profile: C:\Users\kunal\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: b319fbae-59dd-4e30-a082-0b30acedf74c
+Command: [1e05e0e6-835c-4fdb-8e88-4a215e8a71f6, findElement {using=xpath, value=//*[@id=&quot;KSUV2&quot;]/div/label/span[2]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 152.0.6, moz:accessibilityChecks: false, moz:buildID: 20260713164047, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18580, moz:profile: C:\Users\kunal\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 1e05e0e6-835c-4fdb-8e88-4a215e8a71f6
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -96,11 +96,7 @@ Session ID: b319fbae-59dd-4e30-a082-0b30acedf74c
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:396)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:390)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy13.sendKeys(Unknown Source)
-	at com.SauceLabs.Pages.LoginSauceLabs.login_EasyCal(LoginSauceLabs.java:23)
-	at com.SauceLabs.TestCases.ExecuteLoginPage.CheckValidUser(ExecuteLoginPage.java:16)
+	at com.NPC.TestCases.ExecuteLoginNPC.CheckValidUser(ExecuteLoginNPC.java:17)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -127,15 +123,15 @@ Session ID: b319fbae-59dd-4e30-a082-0b30acedf74c
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace817941759", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace817941759'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[id=&apos;idToken1&apos;]
+</pre></div><a href='#' onClick='toggleBox("stack-trace1500379239", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1500379239'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&quot;KSUV2&quot;]/div/label/span[2]
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: &apos;4.45.0&apos;, revision: &apos;cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.2&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [b319fbae-59dd-4e30-a082-0b30acedf74c, findElement {using=xpath, value=//input[id=&apos;idToken1&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 152.0.6, moz:accessibilityChecks: false, moz:buildID: 20260713164047, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9036, moz:profile: C:\Users\kunal\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: b319fbae-59dd-4e30-a082-0b30acedf74c
+Command: [1e05e0e6-835c-4fdb-8e88-4a215e8a71f6, findElement {using=xpath, value=//*[@id=&quot;KSUV2&quot;]/div/label/span[2]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 152.0.6, moz:accessibilityChecks: false, moz:buildID: 20260713164047, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18580, moz:profile: C:\Users\kunal\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 1e05e0e6-835c-4fdb-8e88-4a215e8a71f6
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -147,11 +143,7 @@ Session ID: b319fbae-59dd-4e30-a082-0b30acedf74c
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:396)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:390)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy13.sendKeys(Unknown Source)
-	at com.SauceLabs.Pages.LoginSauceLabs.login_EasyCal(LoginSauceLabs.java:23)
-	at com.SauceLabs.TestCases.ExecuteLoginPage.CheckValidUser(ExecuteLoginPage.java:16)
+	at com.NPC.TestCases.ExecuteLoginNPC.CheckValidUser(ExecuteLoginNPC.java:17)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -179,8 +171,8 @@ Session ID: b319fbae-59dd-4e30-a082-0b30acedf74c
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>11</td>
-<td>com.SauceLabs.TestCases.ExecuteLoginPage@5524cca1</td></tr>
+<td>38</td>
+<td>com.NPC.TestCases.ExecuteLoginNPC@5032714f</td></tr>
 </table><p>
 </body>
 </html>

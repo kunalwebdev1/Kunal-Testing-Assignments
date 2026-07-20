@@ -13,6 +13,6 @@ public class ExecuteLoginPage {
 	public void CheckValidUser() {
 		WebDriver driver = BrowserFactory.BrowserOptions("firefox", "https://accounts.saucelabs.com/am/XUI/#login/");
 		LoginSauceLabs loginPageSauceLabs = PageFactory.initElements(driver, LoginSauceLabs.class);
-		loginPageSauceLabs.login_EasyCal("kunalmaheshwari97283@gmail.com", "mXqR4wU@gLLBs@f");
+		loginPageSauceLabs.login_Sauce("kunalmaheshwari97283@gmail.com", "mXqR4wU@gLLBs@f");
 	}
 }

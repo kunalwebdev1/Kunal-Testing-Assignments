@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\kunal\AppData\Local\Temp\testng-eclipse--1065618255\testng-customsuite.xml</span>
+                    <span>C:\Users\kunal\AppData\Local\Temp\testng-eclipse--1771584117\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -103,7 +103,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.SauceLabs.TestCases.ExecuteLoginPage" class="method navigator-link" hash-for-method="CheckValidUser">CheckValidUser</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.NPC.TestCases.ExecuteLoginNPC" class="method navigator-link" hash-for-method="CheckValidUser">CheckValidUser</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -121,7 +121,7 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.SauceLabs.TestCases.ExecuteLoginPage</span>
+              <span class="class-name">com.NPC.TestCases.ExecuteLoginNPC</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -129,14 +129,14 @@
                   <a name="CheckValidUser">
                   </a> <!-- CheckValidUser -->
                   <span class="method-name">CheckValidUser</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[id=&apos;idToken1&apos;]
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&quot;KSUV2&quot;]/div/label/span[2]
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: &apos;4.45.0&apos;, revision: &apos;cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.2&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [b319fbae-59dd-4e30-a082-0b30acedf74c, findElement {using=xpath, value=//input[id=&apos;idToken1&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 152.0.6, moz:accessibilityChecks: false, moz:buildID: 20260713164047, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9036, moz:profile: C:\Users\kunal\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: b319fbae-59dd-4e30-a082-0b30acedf74c
+Command: [1e05e0e6-835c-4fdb-8e88-4a215e8a71f6, findElement {using=xpath, value=//*[@id=&quot;KSUV2&quot;]/div/label/span[2]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 152.0.6, moz:accessibilityChecks: false, moz:buildID: 20260713164047, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18580, moz:profile: C:\Users\kunal\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 1e05e0e6-835c-4fdb-8e88-4a215e8a71f6
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -148,11 +148,7 @@ Session ID: b319fbae-59dd-4e30-a082-0b30acedf74c
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:396)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:390)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy13.sendKeys(Unknown Source)
-	at com.SauceLabs.Pages.LoginSauceLabs.login_EasyCal(LoginSauceLabs.java:23)
-	at com.SauceLabs.TestCases.ExecuteLoginPage.CheckValidUser(ExecuteLoginPage.java:16)
+	at com.NPC.TestCases.ExecuteLoginNPC.CheckValidUser(ExecuteLoginNPC.java:17)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -188,7 +184,7 @@ Session ID: b319fbae-59dd-4e30-a082-0b30acedf74c
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\kunal\AppData\Local\Temp\testng-eclipse--1065618255\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\kunal\AppData\Local\Temp\testng-eclipse--1771584117\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -197,7 +193,7 @@ Session ID: b319fbae-59dd-4e30-a082-0b30acedf74c
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.SauceLabs.TestCases.ExecuteLoginPage&quot;/&gt;
+      &lt;class name=&quot;com.NPC.TestCases.ExecuteLoginNPC&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -240,13 +236,13 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'CheckValidUser')
-data.setCell(0, 2, 'com.SauceLabs.TestCases.ExecuteLoginPage')
-data.setCell(0, 3, 11703);
+data.setCell(0, 2, 'com.NPC.TestCases.ExecuteLoginNPC')
+data.setCell(0, 3, 38612);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 11 seconds</span>
+              <span class="suite-total-time">Total running time: 38 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -272,7 +268,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.SauceLabs.TestCases.ExecuteLoginPage</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.NPC.TestCases.ExecuteLoginNPC</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>

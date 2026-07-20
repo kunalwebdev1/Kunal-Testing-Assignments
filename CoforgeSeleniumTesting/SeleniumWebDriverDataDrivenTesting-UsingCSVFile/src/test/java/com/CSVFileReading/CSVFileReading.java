@@ -1,6 +1,5 @@
 package com.CSVFileReading;
 
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 
 import org.openqa.selenium.By;

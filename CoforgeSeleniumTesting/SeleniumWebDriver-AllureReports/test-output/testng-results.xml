@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="28" passed="21" failed="5" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-20T14:31:04 IST" name="Suite" finished-at="2026-07-20T14:54:45 IST" duration-ms="1420969">
+    <groups>
+    </groups>
+    <test started-at="2026-07-20T14:31:04 IST" name="Test" finished-at="2026-07-20T14:54:45 IST" duration-ms="1420969">
+      <class name="com.HandlingListBoxItems.demo.Demo1">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.HandlingListBoxItems.demo.Demo1@3cce5371]" started-at="2026-07-20T14:31:24 IST" name="Setup" finished-at="2026-07-20T14:31:38 IST" duration-ms="14116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="DropDownList()[pri:0, instance:com.HandlingListBoxItems.demo.Demo1@3cce5371]" started-at="2026-07-20T14:42:51 IST" name="DropDownList" finished-at="2026-07-20T14:43:15 IST" duration-ms="24464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DropDownList -->
+      </class> <!-- com.HandlingListBoxItems.demo.Demo1 -->
+      <class name="ScreenShotsDemo.TestScreenShots">
+        <test-method signature="Browser()[pri:0, instance:ScreenShotsDemo.TestScreenShots@72c8e7b]" started-at="2026-07-20T14:50:23 IST" name="Browser" finished-at="2026-07-20T14:50:41 IST" duration-ms="17831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser -->
+      </class> <!-- ScreenShotsDemo.TestScreenShots -->
+      <class name="com.WebElementsCaseStudy.EasyCalculationsDemo1">
+        <test-method signature="clearMethodDemo()[pri:0, instance:com.WebElementsCaseStudy.EasyCalculationsDemo1@35841320]" started-at="2026-07-20T14:34:41 IST" name="clearMethodDemo" finished-at="2026-07-20T14:35:41 IST" duration-ms="59713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearMethodDemo -->
+      </class> <!-- com.WebElementsCaseStudy.EasyCalculationsDemo1 -->
+      <class name="com.CSVFileReading.CSVFileReading">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.CSVFileReading.CSVFileReading@6e535154]" started-at="2026-07-20T14:31:04 IST" name="setup" finished-at="2026-07-20T14:31:24 IST" duration-ms="20356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="DDTTestingBlog()[pri:0, instance:com.CSVFileReading.CSVFileReading@6e535154]" started-at="2026-07-20T14:44:26 IST" name="DDTTestingBlog" finished-at="2026-07-20T14:44:57 IST" duration-ms="30904" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found
+  (Session info: chrome=150.0.7871.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [15762035445507ee302293e396f3447c, sendKeysToElement {value=[Ljava.lang.CharSequence;@561953e3, id=f.FBD33959A22F7AB29BF7D2F524958B36.d.0DC2A71B570968AC2A70C3E0AA9ED806.e.16}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.128, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\kunal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50965}, goog:processID: 11460, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50965/devtoo..., se:cdpVersion: 150.0.7871.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (15762035445507ee302293e396f3447c)] -> xpath: //input[@name='FirstName']]
+Session ID: 15762035445507ee302293e396f3447c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=150.0.7871.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [15762035445507ee302293e396f3447c, sendKeysToElement {value=[Ljava.lang.CharSequence;@561953e3, id=f.FBD33959A22F7AB29BF7D2F524958B36.d.0DC2A71B570968AC2A70C3E0AA9ED806.e.16}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.128, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\kunal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50965}, goog:processID: 11460, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50965/devtoo..., se:cdpVersion: 150.0.7871.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (15762035445507ee302293e396f3447c)] -> xpath: //input[@name='FirstName']]
+Session ID: 15762035445507ee302293e396f3447c
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:575)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:225)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:112)
+at com.CSVFileReading.CSVFileReading.DDTTestingBlog(CSVFileReading.java:33)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DDTTestingBlog -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.CSVFileReading.CSVFileReading@6e535154]" started-at="2026-07-20T14:44:57 IST" name="tearDown" finished-at="2026-07-20T14:44:58 IST" duration-ms="782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.CSVFileReading.CSVFileReading -->
+      <class name="com.LaunchBrowsers.ChromeBrowser.EasyCalculationSearch">
+        <test-method signature="search()[pri:0, instance:com.LaunchBrowsers.ChromeBrowser.EasyCalculationSearch@4722ef0c]" started-at="2026-07-20T14:47:41 IST" name="search" finished-at="2026-07-20T14:47:53 IST" duration-ms="11882" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#s"}
+  (Session info: chrome=150.0.7871.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c688fdaa2a6149566ebd326c20835fce, findElement {value=s, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.128, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\kunal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57342}, goog:processID: 28488, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57342/devtoo..., se:cdpVersion: 150.0.7871.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c688fdaa2a6149566ebd326c20835fce]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#s"}
+  (Session info: chrome=150.0.7871.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c688fdaa2a6149566ebd326c20835fce, findElement {value=s, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.128, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\kunal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57342}, goog:processID: 28488, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57342/devtoo..., se:cdpVersion: 150.0.7871.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c688fdaa2a6149566ebd326c20835fce
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:575)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:67)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:396)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:390)
+at com.LaunchBrowsers.ChromeBrowser.EasyCalculationSearch.search(EasyCalculationSearch.java:17)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+      </class> <!-- com.LaunchBrowsers.ChromeBrowser.EasyCalculationSearch -->
+      <class name="com.AltoroMutual.TestCases.ExecuteLoginAM">
+        <test-method signature="CheckValidUser()[pri:0, instance:com.AltoroMutual.TestCases.ExecuteLoginAM@1807e3f6]" started-at="2026-07-20T14:48:47 IST" name="CheckValidUser" finished-at="2026-07-20T14:49:03 IST" duration-ms="16865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckValidUser -->
+      </class> <!-- com.AltoroMutual.TestCases.ExecuteLoginAM -->
+      <class name="ScreenShotsDemo.ScreenShotCaseStudy">
+        <test-method signature="PurchaseProduct()[pri:0, instance:ScreenShotsDemo.ScreenShotCaseStudy@17bffc17]" started-at="2026-07-20T14:43:15 IST" name="PurchaseProduct" finished-at="2026-07-20T14:44:26 IST" duration-ms="70830" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[normalize-space()='Vitamin A 3330IU + Vit D & Cod Liver Oil 90 Capsules']"}
+  (Session info: chrome=150.0.7871.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ed73c9d0d7a0055a4f9e35b2a4a0402d, findElement {value=//div[normalize-space()='Vitamin A 3330IU + Vit D & Cod Liver Oil 90 Capsules'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.128, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\kunal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54845}, goog:processID: 21332, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54845/devtoo..., se:cdpVersion: 150.0.7871.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ed73c9d0d7a0055a4f9e35b2a4a0402d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[normalize-space()='Vitamin A 3330IU + Vit D & Cod Liver Oil 90 Capsules']"}
+  (Session info: chrome=150.0.7871.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ed73c9d0d7a0055a4f9e35b2a4a0402d, findElement {value=//div[normalize-space()='Vitamin A 3330IU + Vit D & Cod Liver Oil 90 Capsules'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.128, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\kunal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54845}, goog:processID: 21332, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54845/devtoo..., se:cdpVersion: 150.0.7871.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ed73c9d0d7a0055a4f9e35b2a4a0402d
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:575)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:396)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:390)
+at ScreenShotsDemo.ScreenShotCaseStudy.PurchaseProduct(ScreenShotCaseStudy.java:41)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PurchaseProduct -->
+      </class> <!-- ScreenShotsDemo.ScreenShotCaseStudy -->
+      <class name="com.WebElementsCaseStudy.EasyCalculationsDemo2">
+        <test-method signature="verifySearchBox()[pri:0, instance:com.WebElementsCaseStudy.EasyCalculationsDemo2@73eb439a]" started-at="2026-07-20T14:34:26 IST" name="verifySearchBox" finished-at="2026-07-20T14:34:41 IST" duration-ms="14836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchBox -->
+      </class> <!-- com.WebElementsCaseStudy.EasyCalculationsDemo2 -->
+      <class name="com.EasyCalculation.TestCases.ExecuteLoginPage">
+        <test-method signature="CheckValidUser()[pri:0, instance:com.EasyCalculation.TestCases.ExecuteLoginPage@1040be71]" started-at="2026-07-20T14:38:46 IST" name="CheckValidUser" finished-at="2026-07-20T14:38:56 IST" duration-ms="9870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckValidUser -->
+      </class> <!-- com.EasyCalculation.TestCases.ExecuteLoginPage -->
+      <class name="com.RadioButtons.TestExamples.MouseOverMoments">
+        <test-method signature="mouseover()[pri:0, instance:com.RadioButtons.TestExamples.MouseOverMoments@6f10d5b6]" started-at="2026-07-20T14:37:08 IST" name="mouseover" finished-at="2026-07-20T14:38:46 IST" duration-ms="97982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mouseover -->
+      </class> <!-- com.RadioButtons.TestExamples.MouseOverMoments -->
+      <class name="com.RadioButtons.TestExamples.TestScrollUpandDown">
+        <test-method signature="Test()[pri:0, instance:com.RadioButtons.TestExamples.TestScrollUpandDown@65f8f5ae]" started-at="2026-07-20T14:50:41 IST" name="Test" finished-at="2026-07-20T14:51:39 IST" duration-ms="58132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- com.RadioButtons.TestExamples.TestScrollUpandDown -->
+      <class name="com.LaunchBrowsers.ChromeBrowser.BrowserLaunch1">
+        <test-method signature="launchBrowser()[pri:0, instance:com.LaunchBrowsers.ChromeBrowser.BrowserLaunch1@2a693f59]" started-at="2026-07-20T14:40:15 IST" name="launchBrowser" finished-at="2026-07-20T14:40:28 IST" duration-ms="12571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+      </class> <!-- com.LaunchBrowsers.ChromeBrowser.BrowserLaunch1 -->
+      <class name="com.PracticeTA.TestCases.ExecuteLogin">
+        <test-method signature="CheckValidUser()[pri:0, instance:com.PracticeTA.TestCases.ExecuteLogin@f1da57d]" started-at="2026-07-20T14:50:03 IST" name="CheckValidUser" finished-at="2026-07-20T14:50:23 IST" duration-ms="19393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckValidUser -->
+      </class> <!-- com.PracticeTA.TestCases.ExecuteLogin -->
+      <class name="com.NPC.TestCases.ExecuteLoginNPC">
+        <test-method signature="CheckValidUser()[pri:0, instance:com.NPC.TestCases.ExecuteLoginNPC@55cb6996]" started-at="2026-07-20T14:48:23 IST" name="CheckValidUser" finished-at="2026-07-20T14:48:46 IST" duration-ms="23198" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //*[@id="KSUV2"]/div/label/span[2]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [130cea44-5627-4c96-8f18-b0801a69ce4e, findElement {value=//*[@id="KSUV2"]/div/label/span[2], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 152.0.6, moz:accessibilityChecks: false, moz:buildID: 20260713164047, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 30300, moz:profile: C:\Users\kunal\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 130cea44-5627-4c96-8f18-b0801a69ce4e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id="KSUV2"]/div/label/span[2]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [130cea44-5627-4c96-8f18-b0801a69ce4e, findElement {value=//*[@id="KSUV2"]/div/label/span[2], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 152.0.6, moz:accessibilityChecks: false, moz:buildID: 20260713164047, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 30300, moz:profile: C:\Users\kunal\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 130cea44-5627-4c96-8f18-b0801a69ce4e
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:575)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:396)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:390)
+at com.NPC.TestCases.ExecuteLoginNPC.CheckValidUser(ExecuteLoginNPC.java:17)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckValidUser -->
+      </class> <!-- com.NPC.TestCases.ExecuteLoginNPC -->
+      <class name="com.MultipleFrames.Demo.Demo1">
+        <test-method signature="IFrame()[pri:0, instance:com.MultipleFrames.Demo.Demo1@48e1f6c7]" started-at="2026-07-20T14:47:53 IST" name="IFrame" finished-at="2026-07-20T14:48:23 IST" duration-ms="30171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IFrame -->
+      </class> <!-- com.MultipleFrames.Demo.Demo1 -->
+      <class name="com.NavigationCommands.BrowserNavigationTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.NavigationCommands.BrowserNavigationTest@194fad1]" started-at="2026-07-20T14:50:23 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1784539223126" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in C:\Users\kunal\OneDrive\Documents\GitHub\Kunal-Testing-Assignments\CoforgeSeleniumTesting\SeleniumWebDriver-AllureReports\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in C:\Users\kunal\OneDrive\Documents\GitHub\Kunal-Testing-Assignments\CoforgeSeleniumTesting\SeleniumWebDriver-AllureReports\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:611)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="NavigationTest()[pri:0, instance:com.NavigationCommands.BrowserNavigationTest@194fad1]" started-at="2026-07-20T14:50:23 IST" name="NavigationTest" finished-at="2026-07-20T14:50:23 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in C:\Users\kunal\OneDrive\Documents\GitHub\Kunal-Testing-Assignments\CoforgeSeleniumTesting\SeleniumWebDriver-AllureReports\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in C:\Users\kunal\OneDrive\Documents\GitHub\Kunal-Testing-Assignments\CoforgeSeleniumTesting\SeleniumWebDriver-AllureReports\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:611)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.NavigationCommands.BrowserNavigationTest@194fad1]" started-at="2026-07-20T14:50:23 IST" name="tearDown" finished-at="2026-07-20T14:50:23 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.NavigationCommands.BrowserNavigationTest -->
+      <class name="com.SeleniumWebDriver.LocatorsDemo.FindElementByLinks">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SeleniumWebDriver.LocatorsDemo.FindElementByLinks@3ad83a66]" started-at="2026-07-20T14:31:38 IST" name="setUp" finished-at="2026-07-20T14:33:43 IST" duration-ms="124743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="findElementById()[pri:0, instance:com.SeleniumWebDriver.LocatorsDemo.FindElementByLinks@3ad83a66]" started-at="2026-07-20T14:40:28 IST" name="findElementById" finished-at="2026-07-20T14:42:51 IST" duration-ms="142834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findElementById -->
+      </class> <!-- com.SeleniumWebDriver.LocatorsDemo.FindElementByLinks -->
+      <class name="ScreenShotsDemo.TestScreenShots1">
+        <test-method signature="Browser()[pri:0, instance:ScreenShotsDemo.TestScreenShots1@5b38c1ec]" started-at="2026-07-20T14:47:08 IST" name="Browser" finished-at="2026-07-20T14:47:15 IST" duration-ms="7689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser -->
+      </class> <!-- ScreenShotsDemo.TestScreenShots1 -->
+      <class name="com.SeleniumWebDriver.LocatorsDemo.LinkTextandPartialLink">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SeleniumWebDriver.LocatorsDemo.LinkTextandPartialLink@15a34df2]" started-at="2026-07-20T14:33:43 IST" name="setUp" finished-at="2026-07-20T14:34:26 IST" duration-ms="43031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="linkTest()[pri:0, instance:com.SeleniumWebDriver.LocatorsDemo.LinkTextandPartialLink@15a34df2]" started-at="2026-07-20T14:44:58 IST" name="linkTest" finished-at="2026-07-20T14:47:08 IST" duration-ms="129823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkTest -->
+      </class> <!-- com.SeleniumWebDriver.LocatorsDemo.LinkTextandPartialLink -->
+      <class name="com.SeleniumWebDriver.LocatorsDemo.ClassNameTestDemo">
+        <test-method signature="ClassNameTest()[pri:0, instance:com.SeleniumWebDriver.LocatorsDemo.ClassNameTestDemo@431cd9b2]" started-at="2026-07-20T14:51:39 IST" name="ClassNameTest" finished-at="2026-07-20T14:54:45 IST" duration-ms="185996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClassNameTest -->
+      </class> <!-- com.SeleniumWebDriver.LocatorsDemo.ClassNameTestDemo -->
+      <class name="com.NavigationCommands.BrowserNavigationCaseStudy">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.NavigationCommands.BrowserNavigationCaseStudy@26abb146]" started-at="2026-07-20T14:50:23 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1784539223193" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in C:\Users\kunal\OneDrive\Documents\GitHub\Kunal-Testing-Assignments\CoforgeSeleniumTesting\SeleniumWebDriver-AllureReports\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in C:\Users\kunal\OneDrive\Documents\GitHub\Kunal-Testing-Assignments\CoforgeSeleniumTesting\SeleniumWebDriver-AllureReports\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:611)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="NavigationTest()[pri:0, instance:com.NavigationCommands.BrowserNavigationCaseStudy@26abb146]" started-at="2026-07-20T14:50:23 IST" name="NavigationTest" finished-at="2026-07-20T14:50:23 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in C:\Users\kunal\OneDrive\Documents\GitHub\Kunal-Testing-Assignments\CoforgeSeleniumTesting\SeleniumWebDriver-AllureReports\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in C:\Users\kunal\OneDrive\Documents\GitHub\Kunal-Testing-Assignments\CoforgeSeleniumTesting\SeleniumWebDriver-AllureReports\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:611)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.NavigationCommands.BrowserNavigationCaseStudy@26abb146]" started-at="2026-07-20T14:50:23 IST" name="tearDown" finished-at="2026-07-20T14:50:23 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.NavigationCommands.BrowserNavigationCaseStudy -->
+      <class name="com.NavigationCommands.NavigationCommands">
+        <test-method signature="ChromeTest()[pri:0, instance:com.NavigationCommands.NavigationCommands@61c4eee0]" started-at="2026-07-20T14:35:41 IST" name="ChromeTest" finished-at="2026-07-20T14:35:55 IST" duration-ms="13579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChromeTest -->
+        <test-method signature="EdgeTest()[pri:0, instance:com.NavigationCommands.NavigationCommands@61c4eee0]" started-at="2026-07-20T14:35:55 IST" name="EdgeTest" finished-at="2026-07-20T14:36:27 IST" duration-ms="32365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EdgeTest -->
+        <test-method signature="FirefoxTest()[pri:0, instance:com.NavigationCommands.NavigationCommands@61c4eee0]" started-at="2026-07-20T14:36:27 IST" name="FirefoxTest" finished-at="2026-07-20T14:37:08 IST" duration-ms="40612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirefoxTest -->
+      </class> <!-- com.NavigationCommands.NavigationCommands -->
+      <class name="com.RadioButtons.TestExamples.RadioButtonsTest">
+        <test-method signature="spiceJet()[pri:0, instance:com.RadioButtons.TestExamples.RadioButtonsTest@338fc1d8]" started-at="2026-07-20T14:47:15 IST" name="spiceJet" finished-at="2026-07-20T14:47:41 IST" duration-ms="25823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spiceJet -->
+      </class> <!-- com.RadioButtons.TestExamples.RadioButtonsTest -->
+      <class name="com.SeleniumWebDriver.AlertsDemo.JavaScriptAlerts">
+        <test-method signature="TestPopups()[pri:0, instance:com.SeleniumWebDriver.AlertsDemo.JavaScriptAlerts@480d3575]" started-at="2026-07-20T14:49:03 IST" name="TestPopups" finished-at="2026-07-20T14:50:03 IST" duration-ms="59792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPopups -->
+      </class> <!-- com.SeleniumWebDriver.AlertsDemo.JavaScriptAlerts -->
+      <class name="com.SauceLabs.TestCases.ExecuteLoginPage">
+        <test-method signature="CheckValidUser()[pri:0, instance:com.SauceLabs.TestCases.ExecuteLoginPage@433defed]" started-at="2026-07-20T14:39:50 IST" name="CheckValidUser" finished-at="2026-07-20T14:40:15 IST" duration-ms="24907" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //input[id='idToken1']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [698857fb-bab0-4e4e-9fb9-d28da1325a4a, findElement {value=//input[id='idToken1'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 152.0.6, moz:accessibilityChecks: false, moz:buildID: 20260713164047, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 30400, moz:profile: C:\Users\kunal\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 698857fb-bab0-4e4e-9fb9-d28da1325a4a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[id='idToken1']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [698857fb-bab0-4e4e-9fb9-d28da1325a4a, findElement {value=//input[id='idToken1'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 152.0.6, moz:accessibilityChecks: false, moz:buildID: 20260713164047, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 30400, moz:profile: C:\Users\kunal\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 698857fb-bab0-4e4e-9fb9-d28da1325a4a
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:575)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:396)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:390)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy19.sendKeys(Unknown Source)
+at com.SauceLabs.Pages.LoginSauceLabs.login_Sauce(LoginSauceLabs.java:23)
+at com.SauceLabs.TestCases.ExecuteLoginPage.CheckValidUser(ExecuteLoginPage.java:16)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckValidUser -->
+      </class> <!-- com.SauceLabs.TestCases.ExecuteLoginPage -->
+      <class name="com.SeleniumWebDriver.AlertsCaseStudy.Rediff">
+        <test-method signature="rediffLoginTest()[pri:0, instance:com.SeleniumWebDriver.AlertsCaseStudy.Rediff@548a24a]" started-at="2026-07-20T14:38:56 IST" name="rediffLoginTest" finished-at="2026-07-20T14:39:50 IST" duration-ms="54573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rediffLoginTest -->
+      </class> <!-- com.SeleniumWebDriver.AlertsCaseStudy.Rediff -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

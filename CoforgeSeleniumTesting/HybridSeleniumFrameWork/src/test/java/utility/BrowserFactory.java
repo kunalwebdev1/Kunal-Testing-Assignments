@@ -22,7 +22,7 @@ static WebDriver driver;
 		driver.get(AppUrl);
 		return driver;
 	}
-	public static void quitBrowser() {
+	public static void quitBrowser(WebDriver driver) {
 		driver.quit();
 	}
 }

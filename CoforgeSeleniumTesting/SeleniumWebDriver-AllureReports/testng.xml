@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.WebElementsCaseStudy.EasyCalculationsDemo2"/>
+      <class name="com.WebElementsCaseStudy.EasyCalculationsDemo1"/>
+      <class name="com.NavigationCommands.NavigationCommands"/>
+      <class name="com.RadioButtons.TestExamples.MouseOverMoments"/>
+      <class name="com.EasyCalculation.TestCases.ExecuteLoginPage"/>
+      <class name="com.SeleniumWebDriver.AlertsCaseStudy.Rediff"/>
+      <class name="com.SauceLabs.TestCases.ExecuteLoginPage"/>
+      <class name="com.LaunchBrowsers.ChromeBrowser.BrowserLaunch1"/>
+      <class name="com.SeleniumWebDriver.LocatorsDemo.FindElementByLinks"/>
+      <class name="com.HandlingListBoxItems.demo.Demo1"/>
+      <class name="ScreenShotsDemo.ScreenShotCaseStudy"/>
+      <class name="com.CSVFileReading.CSVFileReading"/>
+      <class name="com.SeleniumWebDriver.LocatorsDemo.LinkTextandPartialLink"/>
+      <class name="ScreenShotsDemo.TestScreenShots1"/>
+      <class name="com.RadioButtons.TestExamples.RadioButtonsTest"/>
+      <class name="com.LaunchBrowsers.ChromeBrowser.EasyCalculationSearch"/>
+      <class name="com.MultipleFrames.Demo.Demo1"/>
+      <class name="com.NPC.TestCases.ExecuteLoginNPC"/>
+      <class name="com.AltoroMutual.TestCases.ExecuteLoginAM"/>
+      <class name="com.SeleniumWebDriver.AlertsDemo.JavaScriptAlerts"/>
+      <class name="com.PracticeTA.TestCases.ExecuteLogin"/>
+      <class name="com.NavigationCommands.BrowserNavigationTest"/>
+      <class name="com.NavigationCommands.BrowserNavigationCaseStudy"/>
+      <class name="ScreenShotsDemo.TestScreenShots"/>
+      <class name="com.RadioButtons.TestExamples.TestScrollUpandDown"/>
+      <class name="com.SeleniumWebDriver.LocatorsDemo.ClassNameTestDemo"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

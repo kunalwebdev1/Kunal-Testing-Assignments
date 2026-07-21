@@ -20,7 +20,7 @@ WebDriver driver;
 	@FindBy (how = How.XPATH, using = "//input[@name='log_submit']")
 	WebElement BtnLogin;
 	
-	public void login_EasyCal(String Uname, String Pass) {
+	public void login(String Uname, String Pass) {
 		Username.sendKeys(Uname);
 		Password.sendKeys(Pass);
 		BtnLogin.click();

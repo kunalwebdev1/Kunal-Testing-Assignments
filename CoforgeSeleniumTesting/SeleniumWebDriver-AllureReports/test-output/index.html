@@ -1,0 +1,1275 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\kunal\OneDrive\Documents\GitHub\Kunal-Testing-Assignments\CoforgeSeleniumTesting\SeleniumWebDriver-AllureReports\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">28 methods, 5 failed,  2 skipped,  21 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.SauceLabs.TestCases.ExecuteLoginPage" class="method navigator-link" hash-for-method="CheckValidUser">CheckValidUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.NPC.TestCases.ExecuteLoginNPC" class="method navigator-link" hash-for-method="CheckValidUser">CheckValidUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.CSVFileReading.CSVFileReading" class="method navigator-link" hash-for-method="DDTTestingBlog">DDTTestingBlog</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="ScreenShotsDemo.ScreenShotCaseStudy" class="method navigator-link" hash-for-method="PurchaseProduct">PurchaseProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.LaunchBrowsers.ChromeBrowser.EasyCalculationSearch" class="method navigator-link" hash-for-method="search">search</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.NavigationCommands.BrowserNavigationCaseStudy" class="method navigator-link" hash-for-method="NavigationTest">NavigationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.NavigationCommands.BrowserNavigationTest" class="method navigator-link" hash-for-method="NavigationTest">NavigationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="ScreenShotsDemo.TestScreenShots" class="method navigator-link" hash-for-method="Browser">Browser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="ScreenShotsDemo.TestScreenShots1" class="method navigator-link" hash-for-method="Browser">Browser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.EasyCalculation.TestCases.ExecuteLoginPage" class="method navigator-link" hash-for-method="CheckValidUser">CheckValidUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.PracticeTA.TestCases.ExecuteLogin" class="method navigator-link" hash-for-method="CheckValidUser">CheckValidUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.AltoroMutual.TestCases.ExecuteLoginAM" class="method navigator-link" hash-for-method="CheckValidUser">CheckValidUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.NavigationCommands.NavigationCommands" class="method navigator-link" hash-for-method="ChromeTest">ChromeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.SeleniumWebDriver.LocatorsDemo.ClassNameTestDemo" class="method navigator-link" hash-for-method="ClassNameTest">ClassNameTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.HandlingListBoxItems.demo.Demo1" class="method navigator-link" hash-for-method="DropDownList">DropDownList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.NavigationCommands.NavigationCommands" class="method navigator-link" hash-for-method="EdgeTest">EdgeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.NavigationCommands.NavigationCommands" class="method navigator-link" hash-for-method="FirefoxTest">FirefoxTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.MultipleFrames.Demo.Demo1" class="method navigator-link" hash-for-method="IFrame">IFrame</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.RadioButtons.TestExamples.TestScrollUpandDown" class="method navigator-link" hash-for-method="Test">Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.SeleniumWebDriver.AlertsDemo.JavaScriptAlerts" class="method navigator-link" hash-for-method="TestPopups">TestPopups</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.WebElementsCaseStudy.EasyCalculationsDemo1" class="method navigator-link" hash-for-method="clearMethodDemo">clearMethodDemo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.SeleniumWebDriver.LocatorsDemo.FindElementByLinks" class="method navigator-link" hash-for-method="findElementById">findElementById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.LaunchBrowsers.ChromeBrowser.BrowserLaunch1" class="method navigator-link" hash-for-method="launchBrowser">launchBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.SeleniumWebDriver.LocatorsDemo.LinkTextandPartialLink" class="method navigator-link" hash-for-method="linkTest">linkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.RadioButtons.TestExamples.MouseOverMoments" class="method navigator-link" hash-for-method="mouseover">mouseover</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.SeleniumWebDriver.AlertsCaseStudy.Rediff" class="method navigator-link" hash-for-method="rediffLoginTest">rediffLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.RadioButtons.TestExamples.RadioButtonsTest" class="method navigator-link" hash-for-method="spiceJet">spiceJet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.WebElementsCaseStudy.EasyCalculationsDemo2" class="method navigator-link" hash-for-method="verifySearchBox">verifySearchBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.LaunchBrowsers.ChromeBrowser.EasyCalculationSearch</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="search">
+                  </a> <!-- search -->
+                  <span class="method-name">search</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#s&quot;}
+  (Session info: chrome=150.0.7871.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.45.0&apos;, revision: &apos;cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c688fdaa2a6149566ebd326c20835fce, findElement {value=s, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.128, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\kunal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57342}, goog:processID: 28488, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57342/devtoo..., se:cdpVersion: 150.0.7871.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c688fdaa2a6149566ebd326c20835fce
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:575)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:67)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:396)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:390)
+	at com.LaunchBrowsers.ChromeBrowser.EasyCalculationSearch.search(EasyCalculationSearch.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.NPC.TestCases.ExecuteLoginNPC</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckValidUser">
+                  </a> <!-- CheckValidUser -->
+                  <span class="method-name">CheckValidUser</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&quot;KSUV2&quot;]/div/label/span[2]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.45.0&apos;, revision: &apos;cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [130cea44-5627-4c96-8f18-b0801a69ce4e, findElement {value=//*[@id=&quot;KSUV2&quot;]/div/label/span[2], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 152.0.6, moz:accessibilityChecks: false, moz:buildID: 20260713164047, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 30300, moz:profile: C:\Users\kunal\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 130cea44-5627-4c96-8f18-b0801a69ce4e
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:575)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:396)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:390)
+	at com.NPC.TestCases.ExecuteLoginNPC.CheckValidUser(ExecuteLoginNPC.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.CSVFileReading.CSVFileReading</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DDTTestingBlog">
+                  </a> <!-- DDTTestingBlog -->
+                  <span class="method-name">DDTTestingBlog</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=150.0.7871.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: &apos;4.45.0&apos;, revision: &apos;cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [15762035445507ee302293e396f3447c, sendKeysToElement {value=[Ljava.lang.CharSequence;@561953e3, id=f.FBD33959A22F7AB29BF7D2F524958B36.d.0DC2A71B570968AC2A70C3E0AA9ED806.e.16}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.128, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\kunal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50965}, goog:processID: 11460, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50965/devtoo..., se:cdpVersion: 150.0.7871.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (15762035445507ee302293e396f3447c)] -&gt; xpath: //input[@name=&apos;FirstName&apos;]]
+Session ID: 15762035445507ee302293e396f3447c
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:575)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:225)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:112)
+	at com.CSVFileReading.CSVFileReading.DDTTestingBlog(CSVFileReading.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">ScreenShotsDemo.ScreenShotCaseStudy</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="PurchaseProduct">
+                  </a> <!-- PurchaseProduct -->
+                  <span class="method-name">PurchaseProduct</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[normalize-space()=&apos;Vitamin A 3330IU + Vit D &amp; Cod Liver Oil 90 Capsules&apos;]&quot;}
+  (Session info: chrome=150.0.7871.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.45.0&apos;, revision: &apos;cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ed73c9d0d7a0055a4f9e35b2a4a0402d, findElement {value=//div[normalize-space()=&apos;Vitamin A 3330IU + Vit D &amp; Cod Liver Oil 90 Capsules&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.128, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\kunal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54845}, goog:processID: 21332, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54845/devtoo..., se:cdpVersion: 150.0.7871.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ed73c9d0d7a0055a4f9e35b2a4a0402d
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:575)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:396)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:390)
+	at ScreenShotsDemo.ScreenShotCaseStudy.PurchaseProduct(ScreenShotCaseStudy.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.SauceLabs.TestCases.ExecuteLoginPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckValidUser">
+                  </a> <!-- CheckValidUser -->
+                  <span class="method-name">CheckValidUser</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[id=&apos;idToken1&apos;]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.45.0&apos;, revision: &apos;cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [698857fb-bab0-4e4e-9fb9-d28da1325a4a, findElement {value=//input[id=&apos;idToken1&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 152.0.6, moz:accessibilityChecks: false, moz:buildID: 20260713164047, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 30400, moz:profile: C:\Users\kunal\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 698857fb-bab0-4e4e-9fb9-d28da1325a4a
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:575)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:396)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:390)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.sendKeys(Unknown Source)
+	at com.SauceLabs.Pages.LoginSauceLabs.login_Sauce(LoginSauceLabs.java:23)
+	at com.SauceLabs.TestCases.ExecuteLoginPage.CheckValidUser(ExecuteLoginPage.java:16)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.NavigationCommands.BrowserNavigationCaseStudy</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="NavigationTest">
+                  </a> <!-- NavigationTest -->
+                  <span class="method-name">NavigationTest</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in C:\Users\kunal\OneDrive\Documents\GitHub\Kunal-Testing-Assignments\CoforgeSeleniumTesting\SeleniumWebDriver-AllureReports\testng.xml
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.NavigationCommands.BrowserNavigationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="NavigationTest">
+                  </a> <!-- NavigationTest -->
+                  <span class="method-name">NavigationTest</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in C:\Users\kunal\OneDrive\Documents\GitHub\Kunal-Testing-Assignments\CoforgeSeleniumTesting\SeleniumWebDriver-AllureReports\testng.xml
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.MultipleFrames.Demo.Demo1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="IFrame">
+                  </a> <!-- IFrame -->
+                  <span class="method-name">IFrame</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.LaunchBrowsers.ChromeBrowser.BrowserLaunch1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchBrowser">
+                  </a> <!-- launchBrowser -->
+                  <span class="method-name">launchBrowser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.SeleniumWebDriver.LocatorsDemo.ClassNameTestDemo</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClassNameTest">
+                  </a> <!-- ClassNameTest -->
+                  <span class="method-name">ClassNameTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ScreenShotsDemo.TestScreenShots</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Browser">
+                  </a> <!-- Browser -->
+                  <span class="method-name">Browser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.SeleniumWebDriver.AlertsDemo.JavaScriptAlerts</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestPopups">
+                  </a> <!-- TestPopups -->
+                  <span class="method-name">TestPopups</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.AltoroMutual.TestCases.ExecuteLoginAM</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckValidUser">
+                  </a> <!-- CheckValidUser -->
+                  <span class="method-name">CheckValidUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.WebElementsCaseStudy.EasyCalculationsDemo2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchBox">
+                  </a> <!-- verifySearchBox -->
+                  <span class="method-name">verifySearchBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.RadioButtons.TestExamples.TestScrollUpandDown</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test">
+                  </a> <!-- Test -->
+                  <span class="method-name">Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.NavigationCommands.NavigationCommands</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ChromeTest">
+                  </a> <!-- ChromeTest -->
+                  <span class="method-name">ChromeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EdgeTest">
+                  </a> <!-- EdgeTest -->
+                  <span class="method-name">EdgeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FirefoxTest">
+                  </a> <!-- FirefoxTest -->
+                  <span class="method-name">FirefoxTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.SeleniumWebDriver.LocatorsDemo.LinkTextandPartialLink</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="linkTest">
+                  </a> <!-- linkTest -->
+                  <span class="method-name">linkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.HandlingListBoxItems.demo.Demo1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DropDownList">
+                  </a> <!-- DropDownList -->
+                  <span class="method-name">DropDownList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.WebElementsCaseStudy.EasyCalculationsDemo1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clearMethodDemo">
+                  </a> <!-- clearMethodDemo -->
+                  <span class="method-name">clearMethodDemo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.RadioButtons.TestExamples.RadioButtonsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="spiceJet">
+                  </a> <!-- spiceJet -->
+                  <span class="method-name">spiceJet</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.SeleniumWebDriver.AlertsCaseStudy.Rediff</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="rediffLoginTest">
+                  </a> <!-- rediffLoginTest -->
+                  <span class="method-name">rediffLoginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.SeleniumWebDriver.LocatorsDemo.FindElementByLinks</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="findElementById">
+                  </a> <!-- findElementById -->
+                  <span class="method-name">findElementById</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.PracticeTA.TestCases.ExecuteLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckValidUser">
+                  </a> <!-- CheckValidUser -->
+                  <span class="method-name">CheckValidUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.EasyCalculation.TestCases.ExecuteLoginPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckValidUser">
+                  </a> <!-- CheckValidUser -->
+                  <span class="method-name">CheckValidUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ScreenShotsDemo.TestScreenShots1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Browser">
+                  </a> <!-- Browser -->
+                  <span class="method-name">Browser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.RadioButtons.TestExamples.MouseOverMoments</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="mouseover">
+                  </a> <!-- mouseover -->
+                  <span class="method-name">mouseover</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\kunal\OneDrive\Documents\GitHub\Kunal-Testing-Assignments\CoforgeSeleniumTesting\SeleniumWebDriver-AllureReports\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.WebElementsCaseStudy.EasyCalculationsDemo2&quot;/&gt;
+      &lt;class name=&quot;com.WebElementsCaseStudy.EasyCalculationsDemo1&quot;/&gt;
+      &lt;class name=&quot;com.NavigationCommands.NavigationCommands&quot;/&gt;
+      &lt;class name=&quot;com.RadioButtons.TestExamples.MouseOverMoments&quot;/&gt;
+      &lt;class name=&quot;com.EasyCalculation.TestCases.ExecuteLoginPage&quot;/&gt;
+      &lt;class name=&quot;com.SeleniumWebDriver.AlertsCaseStudy.Rediff&quot;/&gt;
+      &lt;class name=&quot;com.SauceLabs.TestCases.ExecuteLoginPage&quot;/&gt;
+      &lt;class name=&quot;com.LaunchBrowsers.ChromeBrowser.BrowserLaunch1&quot;/&gt;
+      &lt;class name=&quot;com.SeleniumWebDriver.LocatorsDemo.FindElementByLinks&quot;/&gt;
+      &lt;class name=&quot;com.HandlingListBoxItems.demo.Demo1&quot;/&gt;
+      &lt;class name=&quot;ScreenShotsDemo.ScreenShotCaseStudy&quot;/&gt;
+      &lt;class name=&quot;com.CSVFileReading.CSVFileReading&quot;/&gt;
+      &lt;class name=&quot;com.SeleniumWebDriver.LocatorsDemo.LinkTextandPartialLink&quot;/&gt;
+      &lt;class name=&quot;ScreenShotsDemo.TestScreenShots1&quot;/&gt;
+      &lt;class name=&quot;com.RadioButtons.TestExamples.RadioButtonsTest&quot;/&gt;
+      &lt;class name=&quot;com.LaunchBrowsers.ChromeBrowser.EasyCalculationSearch&quot;/&gt;
+      &lt;class name=&quot;com.MultipleFrames.Demo.Demo1&quot;/&gt;
+      &lt;class name=&quot;com.NPC.TestCases.ExecuteLoginNPC&quot;/&gt;
+      &lt;class name=&quot;com.AltoroMutual.TestCases.ExecuteLoginAM&quot;/&gt;
+      &lt;class name=&quot;com.SeleniumWebDriver.AlertsDemo.JavaScriptAlerts&quot;/&gt;
+      &lt;class name=&quot;com.PracticeTA.TestCases.ExecuteLogin&quot;/&gt;
+      &lt;class name=&quot;com.NavigationCommands.BrowserNavigationTest&quot;/&gt;
+      &lt;class name=&quot;com.NavigationCommands.BrowserNavigationCaseStudy&quot;/&gt;
+      &lt;class name=&quot;ScreenShotsDemo.TestScreenShots&quot;/&gt;
+      &lt;class name=&quot;com.RadioButtons.TestExamples.TestScrollUpandDown&quot;/&gt;
+      &lt;class name=&quot;com.SeleniumWebDriver.LocatorsDemo.ClassNameTestDemo&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (26 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(28);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'ClassNameTest')
+data.setCell(0, 2, 'com.SeleniumWebDriver.LocatorsDemo.ClassNameTestDemo')
+data.setCell(0, 3, 185996);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'findElementById')
+data.setCell(1, 2, 'com.SeleniumWebDriver.LocatorsDemo.FindElementByLinks')
+data.setCell(1, 3, 142834);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'linkTest')
+data.setCell(2, 2, 'com.SeleniumWebDriver.LocatorsDemo.LinkTextandPartialLink')
+data.setCell(2, 3, 129823);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'mouseover')
+data.setCell(3, 2, 'com.RadioButtons.TestExamples.MouseOverMoments')
+data.setCell(3, 3, 97982);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'PurchaseProduct')
+data.setCell(4, 2, 'ScreenShotsDemo.ScreenShotCaseStudy')
+data.setCell(4, 3, 70830);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TestPopups')
+data.setCell(5, 2, 'com.SeleniumWebDriver.AlertsDemo.JavaScriptAlerts')
+data.setCell(5, 3, 59792);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'clearMethodDemo')
+data.setCell(6, 2, 'com.WebElementsCaseStudy.EasyCalculationsDemo1')
+data.setCell(6, 3, 59713);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Test')
+data.setCell(7, 2, 'com.RadioButtons.TestExamples.TestScrollUpandDown')
+data.setCell(7, 3, 58132);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'rediffLoginTest')
+data.setCell(8, 2, 'com.SeleniumWebDriver.AlertsCaseStudy.Rediff')
+data.setCell(8, 3, 54573);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'FirefoxTest')
+data.setCell(9, 2, 'com.NavigationCommands.NavigationCommands')
+data.setCell(9, 3, 40612);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'EdgeTest')
+data.setCell(10, 2, 'com.NavigationCommands.NavigationCommands')
+data.setCell(10, 3, 32365);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'DDTTestingBlog')
+data.setCell(11, 2, 'com.CSVFileReading.CSVFileReading')
+data.setCell(11, 3, 30904);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'IFrame')
+data.setCell(12, 2, 'com.MultipleFrames.Demo.Demo1')
+data.setCell(12, 3, 30171);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'spiceJet')
+data.setCell(13, 2, 'com.RadioButtons.TestExamples.RadioButtonsTest')
+data.setCell(13, 3, 25823);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'CheckValidUser')
+data.setCell(14, 2, 'com.SauceLabs.TestCases.ExecuteLoginPage')
+data.setCell(14, 3, 24907);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'DropDownList')
+data.setCell(15, 2, 'com.HandlingListBoxItems.demo.Demo1')
+data.setCell(15, 3, 24464);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'CheckValidUser')
+data.setCell(16, 2, 'com.NPC.TestCases.ExecuteLoginNPC')
+data.setCell(16, 3, 23198);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'CheckValidUser')
+data.setCell(17, 2, 'com.PracticeTA.TestCases.ExecuteLogin')
+data.setCell(17, 3, 19393);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'Browser')
+data.setCell(18, 2, 'ScreenShotsDemo.TestScreenShots')
+data.setCell(18, 3, 17831);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'CheckValidUser')
+data.setCell(19, 2, 'com.AltoroMutual.TestCases.ExecuteLoginAM')
+data.setCell(19, 3, 16865);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifySearchBox')
+data.setCell(20, 2, 'com.WebElementsCaseStudy.EasyCalculationsDemo2')
+data.setCell(20, 3, 14836);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'ChromeTest')
+data.setCell(21, 2, 'com.NavigationCommands.NavigationCommands')
+data.setCell(21, 3, 13579);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'launchBrowser')
+data.setCell(22, 2, 'com.LaunchBrowsers.ChromeBrowser.BrowserLaunch1')
+data.setCell(22, 3, 12571);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'search')
+data.setCell(23, 2, 'com.LaunchBrowsers.ChromeBrowser.EasyCalculationSearch')
+data.setCell(23, 3, 11882);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'CheckValidUser')
+data.setCell(24, 2, 'com.EasyCalculation.TestCases.ExecuteLoginPage')
+data.setCell(24, 3, 9870);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'Browser')
+data.setCell(25, 2, 'ScreenShotsDemo.TestScreenShots1')
+data.setCell(25, 3, 7689);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'NavigationTest')
+data.setCell(26, 2, 'com.NavigationCommands.BrowserNavigationCaseStudy')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'NavigationTest')
+data.setCell(27, 2, 'com.NavigationCommands.BrowserNavigationTest')
+data.setCell(27, 3, 0);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 20 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.CSVFileReading.CSVFileReading</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.HandlingListBoxItems.demo.Demo1</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">20382 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.SeleniumWebDriver.LocatorsDemo.FindElementByLinks</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">34499 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.SeleniumWebDriver.LocatorsDemo.LinkTextandPartialLink</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">159243 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.WebElementsCaseStudy.EasyCalculationsDemo2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifySearchBox</span>
+                <span class="method-start">202401 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.WebElementsCaseStudy.EasyCalculationsDemo1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">clearMethodDemo</span>
+                <span class="method-start">217570 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.NavigationCommands.NavigationCommands</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ChromeTest</span>
+                <span class="method-start">277296 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">EdgeTest</span>
+                <span class="method-start">290891 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">FirefoxTest</span>
+                <span class="method-start">323317 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.RadioButtons.TestExamples.MouseOverMoments</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">mouseover</span>
+                <span class="method-start">363936 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.EasyCalculation.TestCases.ExecuteLoginPage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">CheckValidUser</span>
+                <span class="method-start">461932 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.SeleniumWebDriver.AlertsCaseStudy.Rediff</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">rediffLoginTest</span>
+                <span class="method-start">471851 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.SauceLabs.TestCases.ExecuteLoginPage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CheckValidUser</span>
+                <span class="method-start">526448 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.LaunchBrowsers.ChromeBrowser.BrowserLaunch1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">551412 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.SeleniumWebDriver.LocatorsDemo.FindElementByLinks</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">findElementById</span>
+                <span class="method-start">563990 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.HandlingListBoxItems.demo.Demo1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">DropDownList</span>
+                <span class="method-start">706848 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ScreenShotsDemo.ScreenShotCaseStudy</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">PurchaseProduct</span>
+                <span class="method-start">731324 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.CSVFileReading.CSVFileReading</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">DDTTestingBlog</span>
+                <span class="method-start">802234 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">833161 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.SeleniumWebDriver.LocatorsDemo.LinkTextandPartialLink</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">linkTest</span>
+                <span class="method-start">833989 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ScreenShotsDemo.TestScreenShots1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Browser</span>
+                <span class="method-start">963824 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.RadioButtons.TestExamples.RadioButtonsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">spiceJet</span>
+                <span class="method-start">971538 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.LaunchBrowsers.ChromeBrowser.EasyCalculationSearch</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">search</span>
+                <span class="method-start">997369 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.MultipleFrames.Demo.Demo1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">IFrame</span>
+                <span class="method-start">1009270 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.NPC.TestCases.ExecuteLoginNPC</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CheckValidUser</span>
+                <span class="method-start">1039448 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.AltoroMutual.TestCases.ExecuteLoginAM</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">CheckValidUser</span>
+                <span class="method-start">1062713 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.SeleniumWebDriver.AlertsDemo.JavaScriptAlerts</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TestPopups</span>
+                <span class="method-start">1079597 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.PracticeTA.TestCases.ExecuteLogin</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">CheckValidUser</span>
+                <span class="method-start">1139399 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.NavigationCommands.BrowserNavigationTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">NavigationTest</span>
+                <span class="method-start">1158839 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1158852 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.NavigationCommands.BrowserNavigationCaseStudy</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">NavigationTest</span>
+                <span class="method-start">1158901 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1158938 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ScreenShotsDemo.TestScreenShots</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Browser</span>
+                <span class="method-start">1158967 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.RadioButtons.TestExamples.TestScrollUpandDown</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Test</span>
+                <span class="method-start">1176816 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.SeleniumWebDriver.LocatorsDemo.ClassNameTestDemo</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ClassNameTest</span>
+                <span class="method-start">1234952 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

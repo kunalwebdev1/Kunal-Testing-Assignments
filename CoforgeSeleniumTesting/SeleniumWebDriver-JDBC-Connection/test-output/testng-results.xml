@@ -2,16 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-21T15:14:10 IST" name="Default suite" finished-at="2026-07-21T15:14:11 IST" duration-ms="795">
+  <suite started-at="2026-07-22T10:41:47 IST" name="Default suite" finished-at="2026-07-22T10:41:48 IST" duration-ms="1038">
     <groups>
     </groups>
-    <test started-at="2026-07-21T15:14:10 IST" name="Default test" finished-at="2026-07-21T15:14:11 IST" duration-ms="795">
-      <class name="com.JDBC.Connection.DatabaseTest">
-        <test-method signature="testDatabaseConnection()[pri:0, instance:com.JDBC.Connection.DatabaseTest@56620197]" started-at="2026-07-21T15:14:10 IST" name="testDatabaseConnection" finished-at="2026-07-21T15:14:11 IST" duration-ms="728" status="PASS">
+    <test started-at="2026-07-22T10:41:47 IST" name="Default test" finished-at="2026-07-22T10:41:48 IST" duration-ms="1038">
+      <class name="com.CRUDOperations.SQL.DeleteValueDemo">
+        <test-method is-config="true" signature="connectDatabase()[pri:0, instance:com.CRUDOperations.SQL.DeleteValueDemo@4fb61f4a]" started-at="2026-07-22T10:41:47 IST" name="connectDatabase" finished-at="2026-07-22T10:41:48 IST" duration-ms="859" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDatabaseConnection -->
-      </class> <!-- com.JDBC.Connection.DatabaseTest -->
+        </test-method> <!-- connectDatabase -->
+        <test-method signature="insertBookDetails()[pri:1, instance:com.CRUDOperations.SQL.DeleteValueDemo@4fb61f4a]" started-at="2026-07-22T10:41:48 IST" name="insertBookDetails" finished-at="2026-07-22T10:41:48 IST" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertBookDetails -->
+      </class> <!-- com.CRUDOperations.SQL.DeleteValueDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

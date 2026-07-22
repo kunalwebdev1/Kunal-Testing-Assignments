@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.JDBC.Connection.DatabaseTest">
+      <class name="com.CRUDOperations.SQL.DeleteValueDemo">
         <methods>
-          <include name="testDatabaseConnection"/>
+          <include name="connectDatabase"/>
+          <include name="insertBookDetails"/>
         </methods>
-      </class> <!-- com.JDBC.Connection.DatabaseTest -->
+      </class> <!-- com.CRUDOperations.SQL.DeleteValueDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

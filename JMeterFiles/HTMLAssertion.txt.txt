@@ -1,0 +1,157 @@
+line 1 column 1 - Warning: missing <!DOCTYPE> declaration
+line 1 column 1 - Warning: plain text isn't allowed in <head> elements
+line 2 column 11 - Warning: <!DOCTYPE> isn't allowed after elements
+line 3 column 2 - Warning: discarding unexpected <html>
+line 4 column 6 - Warning: <head> isn't allowed in <body> elements
+line 5 column 10 - Warning: <title> isn't allowed in <body> elements
+line 6 column 10 - Warning: meta isn't allowed in <body> elements
+line 7 column 10 - Warning: <meta> isn't allowed in <body> elements
+line 9 column 1 - Warning: unknown attribute "async"
+line 9 column 1 - Warning: <script> lacks "type" attribute
+line 10 column 1 - Warning: <script> lacks "type" attribute
+line 17 column 1 - Warning: <meta> lacks "content" attribute
+line 17 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 18 column 1 - Warning: meta isn't allowed in <body> elements
+line 19 column 1 - Warning: link isn't allowed in <body> elements
+line 20 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 21 column 1 - Warning: meta isn't allowed in <body> elements
+line 22 column 1 - Warning: meta isn't allowed in <body> elements
+line 23 column 1 - Warning: meta isn't allowed in <body> elements
+line 24 column 1 - Warning: meta isn't allowed in <body> elements
+line 25 column 1 - Warning: meta isn't allowed in <body> elements
+line 26 column 1 - Warning: meta isn't allowed in <body> elements
+line 27 column 1 - Warning: meta isn't allowed in <body> elements
+line 28 column 1 - Warning: meta isn't allowed in <body> elements
+line 29 column 1 - Warning: meta isn't allowed in <body> elements
+line 30 column 1 - Warning: meta isn't allowed in <body> elements
+line 31 column 1 - Warning: meta isn't allowed in <body> elements
+line 34 column 1 - Warning: meta isn't allowed in <body> elements
+line 35 column 1 - Warning: link isn't allowed in <body> elements
+line 36 column 1 - Warning: <link> isn't allowed in <body> elements
+line 38 column 1 - Warning: <link> isn't allowed in <body> elements
+line 39 column 1 - Warning: <link> isn't allowed in <body> elements
+line 42 column 1 - Warning: link lacks "type" attribute
+line 42 column 1 - Warning: link isn't allowed in <body> elements
+line 43 column 1 - Warning: link lacks "type" attribute
+line 43 column 1 - Warning: link isn't allowed in <body> elements
+line 44 column 1 - Warning: link lacks "type" attribute
+line 44 column 1 - Warning: link isn't allowed in <body> elements
+line 45 column 1 - Warning: link lacks "type" attribute
+line 45 column 1 - Warning: link isn't allowed in <body> elements
+line 46 column 1 - Warning: link lacks "type" attribute
+line 46 column 1 - Warning: link isn't allowed in <body> elements
+line 47 column 1 - Warning: link lacks "type" attribute
+line 47 column 1 - Warning: link isn't allowed in <body> elements
+line 48 column 1 - Warning: link lacks "type" attribute
+line 48 column 1 - Warning: link isn't allowed in <body> elements
+line 49 column 1 - Warning: link lacks "type" attribute
+line 49 column 1 - Warning: link isn't allowed in <body> elements
+line 50 column 1 - Warning: link lacks "type" attribute
+line 50 column 1 - Warning: link isn't allowed in <body> elements
+line 51 column 1 - Warning: link lacks "type" attribute
+line 51 column 1 - Warning: link isn't allowed in <body> elements
+line 52 column 1 - Warning: link lacks "type" attribute
+line 52 column 1 - Warning: link isn't allowed in <body> elements
+line 53 column 1 - Warning: link lacks "type" attribute
+line 53 column 1 - Warning: link isn't allowed in <body> elements
+line 54 column 1 - Warning: link lacks "type" attribute
+line 54 column 1 - Warning: link isn't allowed in <body> elements
+line 56 column 1 - Warning: link lacks "type" attribute
+line 56 column 1 - Warning: link isn't allowed in <body> elements
+line 57 column 1 - Warning: link lacks "type" attribute
+line 57 column 1 - Warning: link isn't allowed in <body> elements
+line 59 column 1 - Warning: link lacks "type" attribute
+line 59 column 1 - Warning: link isn't allowed in <body> elements
+line 61 column 1 - Warning: <link> lacks "type" attribute
+line 61 column 1 - Warning: <link> isn't allowed in <body> elements
+line 62 column 1 - Warning: <link> lacks "type" attribute
+line 62 column 1 - Warning: <link> isn't allowed in <body> elements
+line 63 column 1 - Warning: <link> lacks "type" attribute
+line 63 column 1 - Warning: <link> isn't allowed in <body> elements
+line 64 column 1 - Warning: <link> lacks "type" attribute
+line 64 column 1 - Warning: <link> isn't allowed in <body> elements
+line 78 column 1 - Warning: </head> isn't allowed in <body> elements
+line 80 column 1 - Warning: <body> isn't allowed in <body> elements
+line 84 column 5 - Error: <header> is not recognized!
+line 84 column 5 - Warning: discarding unexpected <header>
+line 88 column 47 - Warning: trimming empty <i>
+line 94 column 118 - Warning: trimming empty <i>
+line 94 column 148 - Warning: trimming empty <i>
+line 95 column 129 - Warning: trimming empty <i>
+line 95 column 160 - Warning: trimming empty <i>
+line 96 column 135 - Warning: trimming empty <i>
+line 96 column 165 - Warning: trimming empty <i>
+line 97 column 121 - Warning: trimming empty <i>
+line 97 column 150 - Warning: trimming empty <i>
+line 98 column 108 - Warning: trimming empty <i>
+line 98 column 134 - Warning: trimming empty <i>
+line 100 column 13 - Error: <nav> is not recognized!
+line 100 column 13 - Warning: discarding unexpected <nav>
+line 121 column 9 - Warning: discarding unexpected </nav>
+line 123 column 1 - Warning: discarding unexpected </header>
+line 126 column 5 - Error: <header> is not recognized!
+line 126 column 5 - Warning: discarding unexpected <header>
+line 129 column 13 - Warning: unknown attribute "data-normal-logo"
+line 129 column 13 - Warning: unknown attribute "data-sticky-logo"
+line 131 column 22 - Warning: unknown attribute "data-logo-height"
+line 139 column 17 - Error: <nav> is not recognized!
+line 139 column 17 - Warning: discarding unexpected <nav>
+line 306 column 128 - Warning: trimming empty <i>
+line 318 column 127 - Warning: trimming empty <i>
+line 343 column 140 - Warning: Warning: unescaped & or unknown entity "&utm_medium"
+line 343 column 170 - Warning: Warning: unescaped & or unknown entity "&utm_campaign"
+line 343 column 184 - Warning: Warning: unescaped & or unknown entity "&fbclid"
+line 343 column 192 - Warning: Warning: unescaped & or unknown entity "&gclid"
+line 442 column 13 - Warning: discarding unexpected </nav>
+line 446 column 9 - Warning: unknown attribute "data-target"
+line 446 column 9 - Warning: unknown attribute "data-toggle"
+line 447 column 31 - Warning: trimming empty <i>
+line 448 column 9 - Warning: trimming empty <button>
+line 449 column 5 - Warning: discarding unexpected </header>
+line 456 column 114 - Warning: Warning: unescaped & or unknown entity "&utm_medium"
+line 456 column 150 - Warning: Warning: unescaped & or unknown entity "&utm_campaign"
+line 456 column 164 - Warning: Warning: unescaped & or unknown entity "&fbclid"
+line 456 column 172 - Warning: Warning: unescaped & or unknown entity "&gclid"
+line 459 column 1 - Warning: <script> lacks "type" attribute
+line 460 column 1 - Warning: <script> lacks "type" attribute
+line 510 column 25 - Error: <aside> is not recognized!
+line 510 column 25 - Warning: discarding unexpected <aside>
+line 511 column 29 - Error: <section> is not recognized!
+line 511 column 29 - Warning: discarding unexpected <section>
+line 516 column 147 - Warning: trimming empty <i>
+line 517 column 148 - Warning: trimming empty <i>
+line 518 column 168 - Warning: trimming empty <i>
+line 519 column 165 - Warning: trimming empty <i>
+line 520 column 151 - Warning: trimming empty <i>
+line 521 column 156 - Warning: trimming empty <i>
+line 523 column 25 - Warning: discarding unexpected </section>
+line 524 column 21 - Warning: discarding unexpected </aside>
+line 527 column 61 - Warning: trimming empty <div>
+line 530 column 61 - Warning: trimming empty <div>
+line 532 column 61 - Warning: trimming empty <div>
+line 565 column 78 - Warning: trimming empty <span>
+line 565 column 85 - Warning: trimming empty <span>
+line 566 column 17 - Warning: trimming empty <div>
+line 571 column 111 - Warning: trimming empty <i>
+line 578 column 22 - Warning: unknown attribute "placeholder"
+line 582 column 22 - Warning: unknown attribute "placeholder"
+line 586 column 126 - Warning: trimming empty <i>
+InputStream: Doctype given is ""
+InputStream: Document content looks like HTML 4.01 Transitional
+194 warnings, 12 errors were found!
+This document has errors that must be fixed before
+using HTML Tidy to generate a tidied up version.
+The table summary attribute should be used to describe
+the table structure. It is very helpful for people using
+non-visual browsers. The scope and headers attributes for
+table cells are useful for specifying which headers apply
+to each table cell, enabling non-visual browsers to provide
+a meaningful context for each cell.
+The alt attribute should be used to give a short description
+of an image; longer descriptions should be given with the
+longdesc attribute which takes a URL linked to the description.
+These measures are needed for people using non-graphical browsers.
+For further advice on how to make your pages accessible
+see "http://www.w3.org/WAI/GL". You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.

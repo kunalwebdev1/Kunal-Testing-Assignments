@@ -5,8 +5,6 @@
       <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
         <collectionProp name="Arguments.arguments"/>
       </elementProp>
-      <boolProp name="TestPlan.functional_mode">false</boolProp>
-      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
     </TestPlan>
     <hashTree>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="JDBC Assertion Test Demo">
@@ -20,7 +18,7 @@
         </elementProp>
       </ThreadGroup>
       <hashTree>
-        <JDBCDataSource guiclass="TestBeanGUI" testclass="JDBCDataSource" testname="JDBC Connection Configuration">
+        <JDBCDataSource guiclass="TestBeanGUI" testclass="JDBCDataSource" testname="JDBC Connection Configuration" enabled="true">
           <boolProp name="autocommit">true</boolProp>
           <stringProp name="checkQuery"></stringProp>
           <stringProp name="connectionAge">5000</stringProp>
@@ -39,7 +37,7 @@
           <stringProp name="username">root</stringProp>
         </JDBCDataSource>
         <hashTree/>
-        <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="JDBC Request">
+        <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="JDBC Request" enabled="true">
           <stringProp name="dataSource">Test</stringProp>
           <stringProp name="query">SELECT * FROM seleniumautomation.book_detl;</stringProp>
           <stringProp name="queryArguments"></stringProp>
@@ -52,7 +50,7 @@
           <stringProp name="variableNames"></stringProp>
         </JDBCSampler>
         <hashTree/>
-        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree">
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
             <name>saveConfig</name>

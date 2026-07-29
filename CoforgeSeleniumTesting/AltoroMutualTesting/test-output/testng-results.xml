@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-29T00:53:52 IST" name="Suite" finished-at="2026-07-29T00:55:43 IST" duration-ms="110786">
+    <groups>
+    </groups>
+    <test started-at="2026-07-29T00:53:52 IST" name="Test" finished-at="2026-07-29T00:55:43 IST" duration-ms="110786">
+      <class name="com.AltoroMutual.TestCases.ExecuteFeedBack">
+        <test-method signature="Feedback()[pri:0, instance:com.AltoroMutual.TestCases.ExecuteFeedBack@16eb3ea3]" started-at="2026-07-29T00:54:23 IST" name="Feedback" finished-at="2026-07-29T00:55:14 IST" duration-ms="50799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Feedback -->
+      </class> <!-- com.AltoroMutual.TestCases.ExecuteFeedBack -->
+      <class name="com.AltoroMutual.TestCases.ExecuteServerStatusCheck">
+        <test-method signature="CheckServer()[pri:0, instance:com.AltoroMutual.TestCases.ExecuteServerStatusCheck@273444fe]" started-at="2026-07-29T00:55:14 IST" name="CheckServer" finished-at="2026-07-29T00:55:43 IST" duration-ms="28875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckServer -->
+      </class> <!-- com.AltoroMutual.TestCases.ExecuteServerStatusCheck -->
+      <class name="com.AltoroMutual.TestCases.ExecuteAMLogin">
+        <test-method signature="CheckValidUser()[pri:0, instance:com.AltoroMutual.TestCases.ExecuteAMLogin@2cb4893b]" started-at="2026-07-29T00:53:52 IST" name="CheckValidUser" finished-at="2026-07-29T00:54:23 IST" duration-ms="30806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckValidUser -->
+      </class> <!-- com.AltoroMutual.TestCases.ExecuteAMLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
